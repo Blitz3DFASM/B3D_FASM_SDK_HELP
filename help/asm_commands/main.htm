@@ -4,4 +4,47 @@
 <link rel=stylesheet href=css/menu.css type=text/css>
 </head>
 <body>
-<h1>Blitz SDK FASM Command Reference</h1>Documentation Version: 0.01 <br><br>Please visit the <a href=http://www.github.com target=_self>github page of project</a>.
+<h1>Blitz SDK FASM Command Reference</h1>
+Documentation Version: 0.01 
+<br>
+<br>
+Please visit the <a href=http://www.github.com target=_self>github page of project</a>.
+<br>
+<br>
+<h1>Historical reference about Blitz3D IDE and Blitz3D SDK</h1>
+Let's start with the fact that Blitz3D IDE and Blitz3D SDK are different products.
+<br>Blitz3D IDE as is SDK is tools for design 2D and 3D games, demos, 
+and interactive applications for Windows operating systems. 
+<br>Blitz3D SDK was developed by a team of programmers led by <a href=https://www.marksibly.com>Mark Sibly</a>.
+This SDK was developed as an alternative to the original Blitz3D IDE. 
+<br>Unlike original Blitz3D IDE, Blitz3D SDK include a B3D.dll library that contained all the functionality. 
+<br>This approach made it possible to write programs in different programming languages like C++, Blitz MAX and other, 
+using the Blitz3D API and B3D.dll headers.
+<br>At the moment, the sources of the Blitz 3D IDE are in the public domain on github. 
+<br>As for the SDK, according to the owls of the Sibly himself, the source codes of the SDK are irretrievably lost. 
+<br>However, the SDK itself can still be found on the Internet for download.
+<h1>Blitz3D SDK alternatives</h1>
+Mark Mcvittie <a href=https://github.com/markcwm/openb3d.mod>openB3D</a>  
+<br>
+Simon Harrison <a href=https://github.com/si-design/minib3d>miniB3D</a>
+<h1>Known Disadvantages of Blitz3D SDK</h1>
+<li>Gamma correction is not worked
+<li>The volume control function does not work
+<br>
+<h1>Disadvantages of Blitz3D SDK</h1>
+Unlike the original Blitz3D programming language, the SDK lacks the following features:
+<br>
+<br>
+<li>Random generator (Rnd, Rand, SeedRnd, RndSeed)
+<li>Time/Date functions (CurrentDate, CurrentTime)
+<li>File system functions (OpenFile, ReadFile, WriteFile, CloseFile, Filepos... etc)
+<li>Network functions (CountHostsIP, HostIP, DottedIP, CopyStream)
+<li>TCP Network functions (OpenTCPStream, CloseTCPStream... etc) 
+<li>UDP Network functions (OpenUDPStream, CloseUDPStream... etc)
+<br>
+<br> 
+Also not so important but nevertheless functions present in the originalBlitz3В language:
+<br> 
+<br> 
+<li>Bank functions (ReadByte, WriteByte, ReadShort, WriteShort.. etc)
+<li>File/Stream functions (ReadByte, WriteByte, ReadShort, WriteShort.. etc)
